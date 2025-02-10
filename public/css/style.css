@@ -1,0 +1,176 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.white-bg{
+    background-color: #fff;
+    
+}
+
+.listing-all{
+    margin-top:3rem;
+}
+
+.container{
+    flex: 1;
+}
+
+.navbar{
+    height: 5rem;background-color: rgb(248 249 250);
+    z-index: 2;
+
+}
+
+
+footer{
+    /* margin-bottom:2vh ; */
+    padding-top:14rem ;
+    text-align: center;
+  
+    
+}
+
+
+
+.fa-compass{
+    font-size: 2rem;
+}
+.nav-link {
+    color:#222222!important;
+}
+
+.f-info-links a{
+    color:#222222!important;
+    text-decoration: none;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-links{
+   width:100%;
+}
+.f-info-socials{
+    width:100%;
+ }
+
+ .f-info-socials i{
+    margin-top: 2rem;
+    margin-right: 2rem;
+ }
+ 
+
+.f-info{
+    display: flex;
+    height: 8rem;
+    background-color: lightgray;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:space-evenly;
+   
+}
+
+
+
+
+
+/* card */
+.listing-card{
+    border:none ! important;
+    margin-bottom: 2rem;
+}
+
+
+.card.img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover;
+}
+
+.listing-links{
+    text-decoration: none;
+    cursor: pointer;
+}
+.listing-links:hover{
+
+    opacity: 0.8;
+    background-color: #fff;
+}
+
+
+.show-img{
+    height: 30vh;
+}
+
+.flex-buttons{
+    display: flex;
+    
+}
+.btn-outline-danger{
+    margin-right:2rem;
+}
+
+
+
+#filter{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.filters{
+    margin-right: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    opacity:0.7;
+}
+
+.filters:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+#fandt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.toogle-switch{
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+
+}
+
+.taxinfo{
+    display: none;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 991px) {
+   #fandt{
+    display:flex;
+flex-direction: column; 
+align-items: flex-start;
+margin-bottom: 1rem;
+ }
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+  }

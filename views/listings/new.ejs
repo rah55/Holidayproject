@@ -1,0 +1,80 @@
+<% layout("/layouts/boilerplate") %>
+
+
+  <form
+    method="post"
+    action="/listings"
+    class="col-8 offset-2 needs-validation"
+    novalidate
+    enctype="multipart/form-data"
+  >
+    <h1>Create A New Listing</h1>
+    <div class="mb-3">
+      <label for="title" class="form-label">Title</label>
+      <input
+        type="text "
+        name="listing[title]"
+        class="form-control"
+        placeholder="Add title"
+        required
+      />
+    </div>
+    <div class="mb-3">
+      <label for="description" class="form-label">Desciption</label>
+      <textarea
+        rows="3"
+        name="listing[description]"
+        class="form-control"
+        placeholder=" Description"
+        required
+      ></textarea> 
+    </div>
+    <div class="mb-3">
+      <label for="Image" class="form-label">Upload Image</label>
+      <input
+        type="file"
+        name="listing[image]"
+        class="form-control"
+        placeholder=" Image link here"
+        required
+      />
+    </div>
+    <div class="row mb-3">
+      <div class="col-md-4">
+        <label for="price" class="form-label">Price</label>
+        <input
+          type="number"
+          name="listing[price]"
+          class="form-control"
+          placeholder=" Price/night"
+          required
+        />
+      </div>
+
+      <div class="col-md-8">
+        <label for="location" class="form-label">Location</label>
+        <input
+          type="text"
+          name="listing[location]"
+          class="form-control"
+          placeholder="Location"
+          required
+        />
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="Country" class="form-label">Country</label>
+      <input
+        type="text"
+        name="listing[country]"
+        class="form-control"
+        placeholder="Country"
+        required
+      />
+    </div>
+
+    <br /><br />
+    <button class="btn btn-outline-danger">add</button>
+  </form>
+
