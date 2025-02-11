@@ -172,8 +172,11 @@ nav{
 .review{
     display: flex;
     flex-direction: column;
-    width: fit-content;
+   
     
+}
+.card-width{
+    width: fit-content;
 }
 
 
