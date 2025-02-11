@@ -169,6 +169,12 @@ nav{
 }
 
 
+.review{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    
+}
 
 
 
